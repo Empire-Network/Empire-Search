@@ -9,7 +9,7 @@ async function greet(){
     await delay(500);
     if (!visited) { 
         console.log('showing warning')
-        alert('Hello! Thanks for using Dynamic.\nPlease be aware that this is a public beta version of Dynamic. Please report bugs to our GitHub issues page :)\n\n(we will only show you this announcement once.)')
+        alert('Hello! Thanks for using Empire Unblocker.\nPlease be aware that this proxy contains the public beta of Dynamic. Please report bugs to Dynamics and our GitHub issues page :)\n\n(we will only show you this announcement once.)')
     }
     localStorage.setItem("visited", "true")
 }
